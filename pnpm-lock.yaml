@@ -1,0 +1,26 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      typescript: ^4.9.3
+    dependencies:
+      typescript: 4.9.3
+
+  packages/client:
+    specifiers:
+      '@org/common': workspace:*
+    dependencies:
+      '@org/common': link:../common
+
+  packages/common:
+    specifiers: {}
+
+packages:
+
+  /typescript/4.9.3:
+    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false

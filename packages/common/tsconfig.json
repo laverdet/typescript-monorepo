@@ -1,0 +1,17 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"outDir": "dist",
+		"rootDir": ".",
+		// vv Generated dependencies, do not modify vv
+		"paths": {
+			"@org/common/*": [ "./*.ts" ],
+		},
+		// ^^ Generated dependencies, do not modify ^^
+	},
+	"include": [ "." ],
+	// vv Generated dependencies, do not modify vv
+	"references": [
+	],
+	// ^^ Generated dependencies, do not modify ^^
+}

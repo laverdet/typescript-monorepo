@@ -1,0 +1,12 @@
+{
+  "name": "@org/top",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "pnpm:devPreinstall": "find packages -name tsconfig.tsbuildinfo -delete",
+    "install": "tsc -b -v && node ./update-tsconfig.mjs"
+  },
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}

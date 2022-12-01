@@ -1,0 +1,8 @@
+{
+  "name": "@org/client",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@org/common": "workspace:*"
+  }
+}

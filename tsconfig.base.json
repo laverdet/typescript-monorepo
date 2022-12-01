@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		// Enable project references
+		"composite": true,
+
+		// Language & emit settings
+		"declarationMap": true,
+		"noEmit": false,
+		"rootDir": ".",
+		"sourceMap": true,
+		"stripInternal": true,
+		"target": "esnext",
+
+		// Module resolution settings
+		"isolatedModules": true,
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+
+		// Types / strictness
+		"exactOptionalPropertyTypes": true,
+		"noImplicitOverride": true,
+		"noUncheckedIndexedAccess": true,
+		"skipLibCheck": true,
+		"strict": true,
+	},
+	"files": [],
+	"include": [],
+	"exclude": [ "**/dist", "**/node_modules" ],
+	"references": [],
+}
